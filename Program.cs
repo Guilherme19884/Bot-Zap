@@ -8,7 +8,6 @@ namespace bot_zap1
         {
             // Crie a instância do bot
             var web = new ZapSendMensage();
-            web.SiteMensage();
 
             // Aguarde um tempo para escanear o código QR manualmente no navegador
             Console.WriteLine("Por favor, prepare o celular para escanear o código QR quando estiver pronto aperte alguma tecla para continuar.");
